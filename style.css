@@ -1,0 +1,121 @@
+body {
+  background: rgb(230,230,230);
+  color: rgb(50,50,50);
+  font-size: 17px;
+  font-family: 'Slabo 27px', serif;
+}
+
+h1 {
+  color: red;
+  font-size: 30px;
+  font-family: Courier;
+}
+
+a{
+  text-decoration: none;
+  color: red;
+  transition: color 0.3s ease;
+
+}
+
+a:hover {
+  color: green;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+@media (max-width: 750px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (max-width: 600px){
+  .container {
+    width: 400px;
+  }
+}
+
+
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  color: #200CE4;
+}
+
+.card_white {
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  margin: 20px 0px;
+}
+
+#intro {
+  box-shadow: 0 10px 35px rgba(0,245,66,.1);
+  text-align: center;
+}
+
+#origins {
+  box-shadow: 0 10px 35px rgba(245,234,0,.1)
+}
+
+#hobbies {
+  box-shadow: 0 10px 35px rgba(10,19,255,.1)
+}
+
+#music {
+  box-shadow: 0 10px 35px rgba(255,10,236,.1)
+}
+
+#follow {
+  box-shadow: 0 10px 35px rgba(50,50,94,.1)
+}
+
+#img_circle {
+  border-radius: 50%;
+}
+
+.btn-brown {
+  background: #563208;
+  color: white;
+  padding: 12px 20px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.btn-brown:hover{
+  background: #DDB07B;
+  color:#563208;
+}
+
+#intro p {
+  margin-bottom: 25px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  text-align: center;
+
+}
+
+.list-inline li {
+  display: inline;
+  padding: 50px;
+}
+
+.list-inline i {
+  font-size: 40px;
+  color: rgb(230,230,230);
+}
+
+.list-inline i:hover {
+  color: black;
+}
+
+
+
+
